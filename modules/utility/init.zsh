@@ -91,7 +91,7 @@ else
 fi
 
 alias l='ls -1A'         # Lists in one column, hidden files.
-alias ll='ls -lh'        # Lists human readable sizes.
+alias ll='ls++'          # Lists human readable sizes.
 alias lr='ll -R'         # Lists human readable sizes, recursively.
 alias la='ll -A'         # Lists human readable sizes, hidden files.
 alias lm='la | "$PAGER"' # Lists human readable sizes, hidden files through pager.
@@ -101,6 +101,8 @@ alias lt='ll -tr'        # Lists sorted by date, most recent last.
 alias lc='lt -c'         # Lists sorted by date, most recent last, shows change time.
 alias lu='lt -u'         # Lists sorted by date, most recent last, shows access time.
 alias sl='ls'            # I often screw this up.
+alias cls='clear;ls'
+alias cll='clear;ll'
 
 # Grep
 if zstyle -t ':prezto:module:utility:grep' color; then
@@ -156,6 +158,9 @@ else
 fi
 
 # Miscellaneous
+alias vim=nvim
+alias pacno='pacaur -S --noconfirm --noedit'
+alias syu='pacaur -Syu --noconfirm --noedit'
 
 # Serves a directory via HTTP.
 alias http-serve='python -m SimpleHTTPServer'
