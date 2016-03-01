@@ -20,6 +20,15 @@ fi
 export EDITOR='nvim'
 export VISUAL='nvim'
 export PAGER='less'
+export PATH="$PATH:$HOME/.bin"
+
+#
+# Ohjelmointi 2
+#
+export HTUSERNAME=kamiheku
+export HTPROJDIR=kamiheku
+export HTSVNUSER=kamiheku
+export SVN_EDITOR=nvim
 
 #
 # Language

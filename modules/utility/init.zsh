@@ -159,11 +159,15 @@ fi
 
 # Miscellaneous
 alias vim=nvim
+alias nv=nvim
+alias cal='cal -m'
 alias pacno='pacaur -S --noconfirm --noedit'
 alias syu='pacaur -Syu --noconfirm --noedit'
+alias pwo='sudo poweroff'
+alias rbt='sudo reboot'
 
 # Serves a directory via HTTP.
-alias http-serve='python -m SimpleHTTPServer'
+alias http-serve='python -m http.server'
 
 #
 # Functions
