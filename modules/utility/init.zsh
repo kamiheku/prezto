@@ -166,6 +166,7 @@ alias pacno='pacaur -S --noconfirm --noedit'
 alias syu='pacaur -Syu --noconfirm --noedit'
 alias pwo='sudo poweroff'
 alias rbt='sudo reboot'
+alias toilet='toilet -t'
 
 # Serves a directory via HTTP.
 alias http-serve='python -m http.server'
